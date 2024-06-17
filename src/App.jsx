@@ -4,14 +4,16 @@ import ThreeDRotation from '@mui/icons-material/ThreeDRotation'
 import HomeIcon from '@mui/icons-material/Home'
 
 import { pink } from '@mui/material/colors'
+import  Typography  from '@mui/material/Typography'
 
 function App() {
 
   return (
     <>
       <div>hoanglananh</div>
+      <Typography variant='' color='text.secondary'>hoanglananh</Typography>
       <Button variant="text">Text</Button>
-      <Button variant="contained">Contained</Button>
+      <Button variant="contained" color='success'>Contained</Button>
       <Button variant="outlined">Outlined</Button>
       <br />
       <AccessAlarmIcon />
