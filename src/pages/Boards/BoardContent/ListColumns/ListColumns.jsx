@@ -6,7 +6,6 @@ import Button from '@mui/material/Button'
 
 function ListColumns({ columns }) {
 
-
   return (
     <Box sx={{
       bgcolor: 'inherit',
